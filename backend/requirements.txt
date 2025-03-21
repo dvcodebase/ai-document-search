@@ -1,9 +1,0 @@
-fastapi
-uvicorn
-langchain
-faiss-cpu
-sentence-transformers
-pdfplumber
-pytesseract
-pillow
-openai
