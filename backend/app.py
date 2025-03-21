@@ -6,6 +6,11 @@ from utils.langchain_retriever import add_to_langchain_faiss, search_with_langch
 
 app = FastAPI()
 
+@app.get("/")
+def home():
+    return {"message": "API is running"}
+
+
 UPLOAD_DIR = "uploads"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
